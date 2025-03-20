@@ -11,10 +11,14 @@ const nextConfig = {
   basePath: '/weshoot',
   images: {
     unoptimized: true,
-    loader: 'custom',
-    loaderFile: './image-loader.js',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'hebbkx1anhila5yf.public.blob.vercel-storage.com',
+      },
+    ],
   },
-  assetPrefix: '/weshoot/',
+  assetPrefix: '/weshoot',
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,

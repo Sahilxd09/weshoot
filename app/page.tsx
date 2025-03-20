@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/40 z-10" /> {/* Darker overlay for better text contrast */}
           <Image
-            src="/images/hero.jpg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2013.07.38_a4f150d0.jpg-yjE8lzjQ3gM4M73fXcz0OOIIdhYNgk.jpeg"
             alt="Cinematic sunset with person on rock"
             fill
             className="object-cover scale-110 animate-slow-zoom"
