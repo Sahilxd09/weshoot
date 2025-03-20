@@ -8,7 +8,7 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/weshoot-landing',
+  basePath: '/weshoot',
   eslint: {
     ignoreDuringBuilds: true,
   },
