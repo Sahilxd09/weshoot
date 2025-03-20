@@ -11,7 +11,10 @@ const nextConfig = {
   basePath: '/weshoot',
   images: {
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
+  assetPrefix: '/weshoot/',
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
@@ -19,7 +22,14 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  distDir: 'out'
+  distDir: 'out',
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+      type: 'asset/resource',
+    });
+    return config;
+  },
 }
 
 mergeConfig(nextConfig, userConfig)

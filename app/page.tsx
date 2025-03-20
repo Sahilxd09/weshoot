@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/40 z-10" /> {/* Darker overlay for better text contrast */}
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2013.07.38_a4f150d0.jpg-yjE8lzjQ3gM4M73fXcz0OOIIdhYNgk.jpeg"
+            src="/images/hero.jpg"
             alt="Cinematic sunset with person on rock"
             fill
             className="object-cover scale-110 animate-slow-zoom"
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="flex gap-4 pb-8 overflow-x-auto snap-x snap-mandatory hide-scrollbar">
             <div className="snap-center shrink-0 w-[90vw] md:w-[40vw] h-[60vh] relative rounded-xl overflow-hidden group first:ml-4 last:mr-4">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2012.55.56_267ac920.jpg-xqA68fR1FNSiOzXCH496x1gAEUwKtb.jpeg"
+                src="/images/gallery1.jpg"
                 alt="Sunset silhouettes"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -77,7 +77,7 @@ export default function Home() {
 
             <div className="snap-center shrink-0 w-[90vw] md:w-[40vw] h-[60vh] relative rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2013.07.38_a4f150d0.jpg-yjE8lzjQ3gM4M73fXcz0OOIIdhYNgk.jpeg"
+                src="/images/gallery2.jpg"
                 alt="Person on rock at sunset"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -96,7 +96,7 @@ export default function Home() {
 
             <div className="snap-center shrink-0 w-[90vw] md:w-[40vw] h-[60vh] relative rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2013.07.31_d3b8abb3.jpg-h1DJS19PAmLqx2tft6yV85r6GjnghO.jpeg"
+                src="/images/gallery3.jpg"
                 alt="Person in field with mountains"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -115,7 +115,7 @@ export default function Home() {
 
             <div className="snap-center shrink-0 w-[90vw] md:w-[40vw] h-[60vh] relative rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2012.54.56_b423dd87.jpg-7QlTuKMZ8OjEFvFJfGFd80JVhzL0ew.jpeg"
+                src="/images/gallery4.jpg"
                 alt="Person in golden field"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -134,7 +134,7 @@ export default function Home() {
 
             <div className="snap-center shrink-0 w-[90vw] md:w-[40vw] h-[60vh] relative rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2012.56.12_cc6a76c2.jpg-azXLIGFDrRdZSkniJwJZH3lznOktKf.jpeg"
+                src="/images/gallery5.jpg"
                 alt="Person walking in field"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -180,7 +180,7 @@ export default function Home() {
             <div className="order-1 md:order-2 relative">
               <div className="relative h-[500px] md:h-[600px] rounded-2xl overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2013.07.31_d3b8abb3.jpg-h1DJS19PAmLqx2tft6yV85r6GjnghO.jpeg"
+                  src="/images/gallery3.jpg"
                   alt="Person in field with mountains"
                   fill
                   className="object-cover"
@@ -309,7 +309,7 @@ export default function Home() {
       <section className="py-20 bg-black relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-10">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2013.07.38_a4f150d0.jpg-yjE8lzjQ3gM4M73fXcz0OOIIdhYNgk.jpeg"
+            src="/images/gallery2.jpg"
             alt="Background texture"
             fill
             className="object-cover"
@@ -688,7 +688,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative h-[500px] md:h-[600px] rounded-2xl overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-20%20at%2012.56.12_cc6a76c2.jpg-azXLIGFDrRdZSkniJwJZH3lznOktKf.jpeg"
+                  src="/images/gallery5.jpg"
                   alt="Person walking in field"
                   fill
                   className="object-cover"
