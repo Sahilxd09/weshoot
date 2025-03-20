@@ -9,20 +9,16 @@ try {
 const nextConfig = {
   output: 'export',
   basePath: '/weshoot',
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-  experimental: {
-    webpackBuildWorker: true,
-    parallelServerBuildTraces: true,
-    parallelServerCompiles: true,
-  },
+  }
 }
 
 mergeConfig(nextConfig, userConfig)
