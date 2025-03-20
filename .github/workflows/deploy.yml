@@ -29,6 +29,7 @@ jobs:
         run: npm run build
         
       - name: Upload artifact
+        id: upload
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
@@ -45,4 +46,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: github-pages 
+          artifact_name: github-pages
+          artifact_id: ${{ needs.build.outputs.upload.artifact_id }} 
