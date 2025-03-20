@@ -18,7 +18,8 @@ const nextConfig = {
   },
   typescript: {
     ignoreBuildErrors: true,
-  }
+  },
+  distDir: 'out'
 }
 
 mergeConfig(nextConfig, userConfig)
